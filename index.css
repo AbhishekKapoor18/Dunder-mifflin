@@ -1,0 +1,50 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1{
+    font-size: 75px;
+    text-align: center;
+    color: dodgerblue;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.elements {
+    margin-left: auto;
+    margin-right: auto;     
+    border-collapse: collapse;
+    min-width: 600px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 2px 5px 25px dodgerblue;
+}
+.elements thead tr{
+    background-color: dodgerblue;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.elements th, .elements td{
+    padding:  12px 15px;
+}
+.elements tbody tr{
+    border-bottom: 1px black;
+}
+.elements tbody tr{
+    color: white;
+    background-color: rgb(49, 117, 139)
+}
+.elements tbody tr:nth-last-of-type(even){
+    background-color: lightblue;
+    color: black;
+}
+.elements tbody tr.active:hover{
+    color: dodgerblue;
+    font-weight: bold;
+}
